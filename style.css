@@ -35,3 +35,83 @@ function validateForm() {
   msg.style.color = "green";
   return false;
     }
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background: #E6E6FA;
+  padding: 1em 2em;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 1em;
+  text-decoration: none;
+  color: #556B2F;
+  font-weight: 500;
+}
+
+main {
+  padding: 2em;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 3em;
+  background: #E6E6FA;
+  padding: 2em;
+  border-radius: 10px;
+}
+
+.services, .contact {
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: 3em;
+}
+
+.card {
+  background: white;
+  padding: 1.5em;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.04);
+  margin-bottom: 1.5em;
+  border-left: 5px solid #556B2F;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.8em;
+  margin: 0.5em 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  padding: 0.7em 1.5em;
+  border: none;
+  background: #556B2F;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #6b8e23;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  font-size: 0.9em;
+  color: #777;
+  background: #E6E6FA;
+  border-top: 1px solid #ccc;
+}
